@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Says Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<div class="container-fluid container">
+  <div class="row">
+    <!-- game title -->
+    <div class="bottom-pad text-center ">
+      <h1 class="headingTextOne" id="gameTitle">Simon Says Game</h1>
+      <br>
+    </div>
+    
+    <!-- game board -->
+    <div class="text-center " id="gameboard">
+      <div class="colorbtns">
+      <div class="col-xs-6 ">
+        <button class="btn gameboard-btn" id="redButton"></button>
+      </div>
+      <div class="col-xs-6">
+        <button class="btn gameboard-btn" id="blueButton"></button>
+      </div>
+      <div class="col-xs-6">
+        <button class="btn gameboard-btn" id="yellowButton"></button>
+      </div>
+      <div class="col-xs-6">
+        <button class="btn gameboard-btn" id="greenButton"></button>
+      </div>
+    </div>
+      </div>
+    
+    <!-- feedback -->
+    <!-- feedback text, strike counter, correct counter -->
+    <div class="feedbackText text-center  " id="feedbackSection">
+      <div class="feedback  " id="feedbackTextOuter">
+        <h3 id="feedbackTextInner">READY</h3>
+      </div>
+      <div class="midtext">
+      <div class="col-xs-6 " id="strikeOuter">
+        <h4>STRIKE</h4>
+        <h4 class="feedback counters" id="strikeInner"></h4>
+      </div>
+      <div class="col-xs-6 " id="countOuter">
+        <h4>COUNT</h4>
+        <h4 class="feedback counters" id="countInner">--</h4>
+      </div>
+    </div>
+      </div>
+    
+    <!-- control buttons -->
+    <!-- start/reset button, strict button, mute button -->
+    <div class="row" id="bot">
+      <div class="col-xs-6">
+      
+        <button class="btn btn-success control-btn" id="startBtn">
+          START
+        </button>
+      </div>
+      <div class="col-xs-6">
+        <button class="btn control-btn btn-danger" id="strictBtn">
+          STRICT
+        </button>
+      </div>
+        </div>
+      
+    </div>    
+    
+    <div class="bottom">
+  <hr>
+  <div class="well text-center">Designed & Coded by <b><a href="https://codepen.io/rishabhgupta/" target="_blank">Rishabh Gupta</a></b></div>
+</div>
+    
+  </div> <!-- row -->
+</div> <!-- fluid-container -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
