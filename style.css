@@ -149,7 +149,7 @@ body {
 }
 
 #redButton:focus {
-  
+  outline: none;
   cursor:pointer;
 }
 
