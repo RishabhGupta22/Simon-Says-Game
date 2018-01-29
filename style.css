@@ -150,6 +150,7 @@ body {
 
 #redButton:focus {
   outline: none;
+  user-select:none;
 }
 
 #redButton.buttonLit {
